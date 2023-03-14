@@ -4,9 +4,9 @@ Steps to Run this Web-App
 
     git clone https://github.com/dipak2811/Todo.git
 
-    git checkout Todo_UI
+    git checkout TODO
 
-    Now if you have node installed in your system run below command in terminal inside Todo_UI(if not installed install first)
+    Now if you have node installed in your system run below command in terminal inside TODO(if not installed install first)
 
     npm install
 

@@ -1,0 +1,16 @@
+.Main{
+    height: 600px;
+    overflow-y:scroll;
+    background-color: white;
+
+}
+
+.Main1{
+    background-color:#5ad3a0;
+    z-index: 1;
+}
+
+.date{
+    font-size: 40px;
+}
+
