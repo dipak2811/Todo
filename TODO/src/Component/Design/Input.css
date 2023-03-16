@@ -1,8 +1,16 @@
 .Main{
     height: 600px;
-    overflow-y:scroll;
     background-color: white;
 
+}
+.Main_Part::-webkit-scrollbar {
+    display: none;
+  }
+.Main_Part{
+    height: 550px;
+    background-color: white;
+    overflow-y:scroll;
+    scrollbar-width: none;
 }
 
 .Main1{
