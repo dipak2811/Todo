@@ -94,8 +94,10 @@ export default function Input() {
         <Header />
         <div className="row justify-content-center">
           <div className="col-12 col-sm-6 col-md-4 Main">
-            <Showlist val={list} />
-          </div>
+                <div className="Main_Part">
+                  <Showlist val={list} />
+                </div>
+            </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-12 col-sm-6 col-md-4 d-flex justify-content-center position-relative">
