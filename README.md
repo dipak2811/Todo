@@ -19,7 +19,8 @@
     6) Deploy on firebase using
             firebase deploy
            
-
+Deployed Link for staging:- https://todo1-878d2.web.app/  
+note:-check console to see var of staging env
 
 2. Steps to deploy react app on firebase for production envirment
 
@@ -41,3 +42,6 @@
             N
     6) Deploy on firebase using
             firebase deploy
+            
+Deployed Link for production:- https://todo-f5572.web.app/	
+note:-check console to see var of production env
