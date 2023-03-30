@@ -43,5 +43,5 @@ note:-check console to see var of staging env
     6) Deploy on firebase using
             firebase deploy
             
-Deployed Link for production:- https://todo-f5572.web.app/	
+Deployed Link for production:- https://todo-f5572.web.app/	                
 note:-check console to see var of production env
