@@ -1,0 +1,24 @@
+.Main{
+    height: 600px;
+    background-color: white;
+
+}
+.Main_Part::-webkit-scrollbar {
+    display: none;
+  }
+.Main_Part{
+    height: 550px;
+    background-color: white;
+    overflow-y:scroll;
+    scrollbar-width: none;
+}
+
+.Main1{
+    background-color:#5ad3a0;
+    z-index: 1;
+}
+
+.date{
+    font-size: 40px;
+}
+
