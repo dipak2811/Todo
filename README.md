@@ -6,7 +6,7 @@
             "homepage": "https://dipak2811.github.io/todo_staging/",
     3) Add belowe lines in package.json in scripts
             "build:staging": "env-cmd -f .env.staging npm run build",
-            "predeploy": "npm run build:production",
+            "predeploy": "npm run build:staging",
             "deploy": "gh-pages -d build"
     4) Install gh-pages using belowe command
             npm install --save gh-pages
