@@ -53,23 +53,21 @@ export default function Input() {
   useEffect(() => {
     if (document.cookie.length !== 0) {
       let x = JSON.parse(getCookie("Todo"));
-      console.log(x);
       setList(x);
     }
 
+    document.addEventListener(
+      "keyup",
+      (event) => {
+        if (event.key === "Escape") {
+          setBtn_style(btn_style2);
+          setInput_style(input_style1);
+        }
+      },
+      false
+    );
     return document.removeEventListener("keyup", () => {}, false);
   }, []);
-  document.addEventListener(
-    "keyup",
-    (event) => {
-      if (event.key === "Escape") {
-        setBtn_style(btn_style2);
-        setInput_style(input_style1);
-        console.log(event.key);
-      }
-    },
-    false
-  );
   const add = () => {
     setBtn_style(btn_style1);
     setInput_style(input_style2);
